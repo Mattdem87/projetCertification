@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="media/logo_icone.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Tranum</title>
+</head>
+
+<body>
+    <header class="headTbDBord">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand my-1" href="tableauDeBord.html"><img src="./media/logo_titre.png" width="100px" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="form-inline ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+    <div class="row">
+        <div class="col-sm-2 admin-sidebar">
+            <div class="nav flex-column nav-pills text-center text-uppercase admin-nav" id="sidebar-admin"
+                role="tablist" aria-orientation="vertical">
+                <a class="nav-link active show admin-nav-item admin-sidebar-item" data-toggle="pill" href="compte.html"
+                    role="tab" aria-controls="compte.html" aria-selected="true">Compte</a>
+                <a class="nav-link admin-nav-item admin-sidebar-item" data-toggle="pill" href="usager.html" role="tab"
+                    aria-controls="usager.html" aria-selected="false">Usager</a>
+                <a class="nav-link admin-nav-item admin-sidebar-item" data-toggle="pill" href="groupe.html" role="tab"
+                    aria-controls="groupe.html" aria-selected="false">Groupe</a>
+                <a class="nav-link admin-nav-item admin-sidebar-item" data-toggle="pill" href="planning.html" role="tab"
+                    aria-controls="planning.html" aria-selected="false">Planning</a>
+                <a class="nav-link admin-nav-item admin-sidebar-item" data-toggle="pill" href="calendrier.html"
+                    role="tab" aria-controls="calendrier.html" aria-selected="false">Calendrier</a>
+                <a class="nav-link admin-nav-item admin-sidebar-item" data-toggle="pill" href="sante.html" role="tab"
+                    aria-controls="sante.html" aria-selected="false">Santé</a>
+                <a class="nav-link admin-nav-item admin-sidebar-item" data-toggle="pill" href="transmission.html"
+                    role="tab" aria-controls="transmission.html" aria-selected="false">Cahier de transmission</a>
+                <a class="nav-link admin-nav-item admin-sidebar-item" data-toggle="pill" href="email.html"
+                    role="tab" aria-controls="email.html" aria-selected="false">Email</a>
+                <a class="nav-link admin-nav-item admin-sidebar-item" data-toggle="pill" href="admin-changelog"
+                    role="tab" aria-controls="admin-changelog" aria-selected="false">Changelog</a>
+            </div>
+        </div>
+        <div class="col-sm-12 admin-tabs" class="nav-collapse">
+            <ul class="nav nav-tabs admin-nav text-uppercase" role="tablist" id="nav-accordion">
+                <li class="nav-item">
+                    <a class="nav-link admin-nav-item active" data-toggle="tab" href="#compte.html" role="tab"
+                        aria-controls="compte.html" aria-selected="true">Comptes</a>
+                </li>
+                <ul>
+                    <li>Abc</li>
+                    <li>Abc</li>
+                    <li>Abc</li>
+                </ul>
+                <li class="nav-item">
+                    <a class="nav-link admin-nav-item" data-toggle="tab" href="#usager.html" role="tab"
+                        aria-controls="usager.html" aria-selected="false">Usager</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link admin-nav-item" data-toggle="tab" href="#groupe.html" role="tab"
+                        aria-controls="groupe.html" aria-selected="false">Groupe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link admin-nav-item" data-toggle="tab" href="#planning.html" role="tab"
+                        aria-controls="planning.html" aria-selected="false">Planning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link admin-nav-item" data-toggle="tab" href="#calendrier.html" role="tab"
+                        aria-controls="calendrier.html" aria-selected="false">Calendrier</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link admin-nav-item" data-toggle="tab" href="#sante.html" role="tab"
+                        aria-controls="sante.html" aria-selected="false">Santé</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link admin-nav-item" data-toggle="tab" href="#transmission" role="tab"
+                        aria-controls="transmission" aria-selected="false">Cahier de Transmission</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link admin-nav-item" data-toggle="tab" href="#email" role="tab"
+                        aria-controls="email" aria-selected="false">Cahier de Transmission</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="col-sm-10">
+            <div class="tab-content">
+                <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                        <h4><a class="nav-link admin-header-block">Groupe</a></h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+
+</html>
